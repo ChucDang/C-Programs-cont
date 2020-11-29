@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <malloc.h>
 #define keytype int
 #define othertype float
 // ------------------------Note----------------
@@ -50,6 +51,7 @@ void cong(recordtype a[], recordtype b[], int n, recordtype c[])
 int main()
 {
     int n;
+
     freopen("d.inp", "r", stdin);
     scanf("%d", &n);
     recordtype A[n];
